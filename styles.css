@@ -1,0 +1,44 @@
+@import url(styles/header.css);
+@import url(styles/glossario.css);
+@import url(styles/rodape.css);
+
+
+
+:root{
+    --cor-de-fundo:  #f4f4f4;
+    --verde: #4CAF50;
+    --branco:#FFFFFF;
+    --cor-fonte-padrao: #333;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte-padrao);
+    line-height: 1.6;
+}
+
+
+
+/* Responsivo */
+@media (min-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    #search {
+        font-size: 18px;
+    }
+
+    .term h2 {
+        font-size: 1.4em;
+    }
+
+    .term p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
