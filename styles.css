@@ -5,15 +5,18 @@
 
 
 :root{
-    --cor-de-fundo:  #f4f4f4;
+    --cor-de-fundo:  #f3f3f3;
     --verde: #4CAF50;
-    --branco:#FFFFFF;
-    --cor-fonte-padrao: #333;
+    --cor-de-fundo-termo:#FFFFFF;
+    --cor-de-tag:#800000;
+    --cor-de-atributo:#e50000;
+    --negro: #1e1e1e;
+    --cor-de-valor:#0000ff;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--cor-fonte-padrao);
+    color: var(--negro);
     line-height: 1.6;
 }
 

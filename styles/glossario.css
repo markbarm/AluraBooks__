@@ -1,6 +1,7 @@
 main {
     padding: 10px;
     max-width: 100%;
+    font-size: 14px;
 }
 
 #glossario {
@@ -8,7 +9,7 @@ main {
 }
 
 .termo {
-    background: white;
+    background-color: var(--cor-de-fundo-termo) ;
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 5px;
@@ -22,10 +23,30 @@ main {
 
 .termo h2 {
     color: #4CAF50;
-    font-size: 1.2em;
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
-.termo p {
-    font-size: 14px;
+.tag{
+    
+    color:var(--cor-de-tag);
+}
+.tag__atributo{
+    color: var(--cor-de-atributo);
+}
+
+.tag__atributo__valor{
+    color: var(--cor-de-valor);
+}
+
+
+.exemplo{
+    background-color: rgb(241, 231, 205);
+    border: solid 1px;
+    border-radius: 5px;
+    padding: .5em 1em;
+    /* margin-left: 1em; */
+    
+
 }
