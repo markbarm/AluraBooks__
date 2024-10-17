@@ -2,6 +2,13 @@
 @import url(styles/glossario.css);
 @import url(styles/rodape.css);
 
+@font-face {
+    font-family: Droid;
+    src: url("fonts/DroidSansMono.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 
 
 :root{

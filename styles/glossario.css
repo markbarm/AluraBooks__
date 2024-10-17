@@ -44,6 +44,8 @@ main {
 
 
 .html, .css{
+    font-family: Droid;
+    font-size: 12px;
     background-color: rgb(241, 231, 205);
     border: solid 1px;
     border-radius: 5px;
