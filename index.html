@@ -19,33 +19,48 @@
         <section id="glossar">
 
             <article class="term">
+                <h2>&lt;head&gt;</h2>
+                <p>Tag semântica usada para incluir metadados como conjunto de caracteres, link de estilos,  título que aparece na aba do navegador, etc.</p>
+                <div class="html">
+                    
+                    <span class="tag">&lt;head&gt;</span><br>
+                    &nbsp;&nbsp;<span class="tag">&lt;meta</span>
+                    <span class="tag__atributo">charset</span><span>=</span><span class="tag__atributo-valor">"UTF-8"</span><span class="tag">&gt;</span><br>
+                    
+                    &nbsp;&nbsp;<span class="tag">&lt;title&gt;</span><span>AluraBooks</span><span class="tag">&lt;/title&gt;</span><br>
+                    
+                    &nbsp;&nbsp;<span class="tag">&lt;link</span>
+                    <span class="tag__atributo">rel</span><span>=</span><span class="tag__atributo-valor">"stylesheet"</span>
+                    <span class="tag__atributo">href</span><span>=</span><span class="tag__atributo-valor">"style.css"</span><span class="tag">&gt;</span><br>
+                    
+                    <span class="tag">&lt;/head&gt;</span>
+                </div>
+            </article>
+
+            <article class="term">
                 <h2>&lt;header&gt;</h2>
-                <p>É uma tag semântica usada para implementar um cabeçalho no projeto</p>
+                <p>Tag semântica usada para implementar um cabeçalho no projeto</p>
                 <div class="html">
                     <span class="tag">&lt;header</span>
                     <span class="tag__atributo">class</span><span>=</span><span
-                        class="tag__atributo-valor">"cabeçalho"</span><span class="tag">&gt;</span>
+                        class="tag__atributo-valor">"cabeçalho"</span><span class="tag">&gt;</span><span class="tag">&lt;/header&gt;</span>
                 </div>
-                
             </article>
 
             <article class="term">
                 <h2>class</h2>
-                <p>atributo de qualquer tag, usado para para criar uma classe específica.</p>
+                <p>Atributo de qualquer tag, usado para para criar uma classe específica.</p>
                 <div class="html">
                     <span class="tag">&lt;header</span>
                     <span class="tag__atributo">class</span><span>=</span><span
-                        class="tag__atributo-valor">"cabeçalho"</span><span class="tag">&gt;</span>
+                        class="tag__atributo-valor">"cabeçalho"</span><span class="tag">&gt;</span><span class="tag">&lt;/header&gt;</span>
                 </div>
                 <p>O valor do atributo, "<span class="tag__atributo-valor">cabeçalho</span>", será usado como seletor,
                     "<span class="css__seletor">.cabeçalho</span>" nos arquivos css. </p>
                 <div class="css">
                     <span class="css__seletor">.cabeçalho</span>
                     <span class="css__delimitador">{</span>
-                    <span class="css__propriedade">
-                        <br>
-                        &nbsp; background-color
-                    </span><span>:</span>
+                    <span class="css__propriedade"><br>&nbsp; background-color</span><span>:</span>
                     <span class="css__propriedade__valor">blue</span><span>;</span>
                     <span class="css__delimitador"><br>}</span>
                 </div>
@@ -53,8 +68,7 @@
 
             <article class="term">
                 <h2>&lt;span&gt;</h2>
-                <p>tag não semântica usada para inserir um elemento, sem produzir quebra de linha, e que receberá um
-                    estilo específico.</p>
+                <p>Tag não semântica usada para inserir um elemento, sem produzir quebra de linha, que receberá um estilo específico.</p>
                 <div class="html">
                     <span class="tag">&lt;span</span>
                     <span class="tag__atributo">class</span><span>=</span><span
@@ -65,7 +79,7 @@
 
             <article class="term">
                 <h2>&lt;img&gt;</h2>
-                <p>É uma tag semântica usada para inserir uma imagem como elemento em linha. É necessário usar os atributos "<span class="tag__atributo">src</span>" e "<span class="tag__atributo">alt</span>".</p>
+                <p>Tag semântica usada para inserir uma imagem como elemento em linha. É necessário usar os atributos "<span class="tag__atributo">src</span>" e "<span class="tag__atributo">alt</span>".</p>
                 <div class="html">
                     <span class="tag">&lt;img</span>
                     <span class="tag__atributo">src</span><span>=</span><span
@@ -77,7 +91,7 @@
 
             <article class="term">
                 <h2>src</h2>
-                <p>atributo da tag <span class="tag">&lt;img&gt;</span> usado para indicar o caminho fonte da imagem a
+                <p>Atributo da tag <span class="tag">&lt;img&gt;</span> usado para indicar o caminho fonte da imagem a
                     ser inserida.</p>
                 <div class="html">
                     <span class="tag">&lt;img</span>
@@ -90,7 +104,7 @@
 
             <article class="term">
                 <h2>alt</h2>
-                <p>atributo da tag <span class="tag">&lt;img&gt;</span> usado para incluir o texto alternativo da imagem
+                <p>Atributo da tag <span class="tag">&lt;img&gt;</span> usado para incluir o texto alternativo da imagem
                     a ser inserida.</p>
                 <div class="html">
                     <span class="tag">&lt;img</span>
@@ -103,11 +117,11 @@
 
             <article class="term">
                 <h2>&lt;a&gt;</h2>
-                <p>tag "âncora" semântica, usada para inserir um elemento que quando clicado redireciona para um link externo</p>
+                <p>Tag semântica "âncora", usada para inserir um elemento que redireciona para um link externo, quando clicado</p>
                 <div class="html">
                     <span class="tag">&lt;a</span>
                     <span class="tag__atributo">href</span><span>=</span><span
-                        class="tag__atributo-valor">"www.alura.com.br/artigos/"</span><span class="tag">&gt;</span><span class="tag">&lt;/a&gt;</span>
+                        class="tag__atributo-valor">"www.alura.com.br/artigos/"</span><span class="tag">&gt;</span>Artigos alura<span class="tag">&lt;/a&gt;</span>
                 </div>
             </article>
 
