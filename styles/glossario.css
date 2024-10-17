@@ -28,25 +28,25 @@ main {
     margin-bottom: 5px;
 }
 
-.tag{
+.tag, .css__seletor{
     
     color:var(--cor-de-tag);
 }
-.tag__atributo{
+.tag__atributo, .css__propriedade{
     color: var(--cor-de-atributo);
 }
 
-.tag__atributo__valor{
+.tag__atributo-valor,
+.css__delimitador,
+.css__propriedade__valor{
     color: var(--cor-de-valor);
 }
 
 
-.exemplo{
+.html, .css{
     background-color: rgb(241, 231, 205);
     border: solid 1px;
     border-radius: 5px;
     padding: .5em 1em;
-    /* margin-left: 1em; */
-    
-
+    margin: 1em 0;
 }
